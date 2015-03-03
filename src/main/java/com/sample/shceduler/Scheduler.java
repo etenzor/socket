@@ -12,7 +12,7 @@ import java.util.Date;
 public class Scheduler {
 
     //For Stomp
-    //private static final String[] users = {"user1", "user2"};
+    private static final String[] users = {"user1", "user2"};
 
     @Autowired
     private SimpMessagingTemplate messagingTemplate;
